@@ -1,0 +1,20 @@
+{
+  "id": "zen-skip-unloaded-tabs",
+  "name": "Skip Unloaded Tabs",
+  "description": "After you close or unload a tab, Zen switches to a loaded tab or the empty tab, never to an unloaded one.",
+  "author": "akbarakma",
+  "version": "1.0.0",
+  "ai": "yes",
+  "supportsUnload": true,
+  "scripts": {
+    "skip-unloaded-tabs.uc.mjs": {
+      "include": ["chrome://browser/content/browser.xhtml*"]
+    }
+  },
+  "tags": ["tabs", "unloaded", "close"],
+  "fork": ["zen"],
+  "readme": "https://raw.githubusercontent.com/akbarakma/zen-skip-unloaded-tabs/main/README.md",
+  "homepage": "https://github.com/akbarakma/zen-skip-unloaded-tabs",
+  "createdAt": "2026-10-12",
+  "updatedAt": "2026-10-12"
+}
